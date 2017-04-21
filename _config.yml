@@ -13,22 +13,49 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: DMs of Vancouver
+email: info@dmsofvancouver.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  DMs of Vancouver is a podcast for new and vetran DMs. We go over a variety
+  of topics, hoping to give advice on what a DM will encounter as they run games
+  for their players.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dmsofvancouver.ca"
+
+paginate: 5
+highlighter: rouge
+
+permalink: :categories/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "page-:num"
+
+category_dir: "categories"
+category_layout: "index.html"
+
 twitter_username: jekyllrb
 github_username:  jekyll
+
+navigation:
+  - title: Episodes
+    url: /categories/episodes
+  - title: Posts
+    url: /categories/posts
+
+social:
+  twitter: dmsofvancouver
+  facebook: dmsofvancouver
+  email: info@dmsofvancouver.ca
+
+
 
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-paginate-category
+
 exclude:
   - Gemfile
   - Gemfile.lock
