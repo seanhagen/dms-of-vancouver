@@ -2,14 +2,13 @@
 layout: default
 title: Index
 ---
-{% if page.paginator %}
-{% assign paginator = page.paginator %}
-{% endif %}
+
+{{ content | markdownify }}
 
 <div class="home" id="home">
   <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
+<ul class="posts noList">
+   {% for post in paginator.posts %}
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>

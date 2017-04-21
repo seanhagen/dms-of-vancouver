@@ -2,9 +2,11 @@
 BUTTON DEFAULTS
 ***************/
 
-a  .centerme {
-    display: block;
-    text-align: center;
+.content {
+    a.centerme {
+        display: block;
+        text-align: center;
+    }
 }
 
 %btn {

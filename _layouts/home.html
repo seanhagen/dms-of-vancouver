@@ -9,7 +9,7 @@ layout: default
 <h1 class="pageTitle">Home</h1>
 {{content}}
 <ul class="posts noList">
-{% for post in site.posts limit:10 %}
+{% for post in paginator.posts limit:10 %}
 {% assign count = count | plus: 1 %}
 <li>
 <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
@@ -19,7 +19,23 @@ layout: default
 {% endfor %}
 </ul>
 
-{% if count == 10 %}
-<a href="/archive/" class="centerme button__outline">Check Out The Archive For More</a>
+ {% if paginator.total_pages > 1 %}
+<ul class="pager">
+{% if paginator.previous_page %}
+<li class="previous">
+<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+</li>
 {% endif %}
+{% if paginator.next_page %}
+<li class="next">
+<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+</li>
+{% endif %}
+</ul>
+{% endif %}
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
+
 </div>
