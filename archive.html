@@ -2,14 +2,29 @@
 layout: default
 ---
 
-<div class="home" id="home">
-<h1 class="pageTitle">Archive</h1>
+<div class="home" id="archive">
+<div class="left">
+<h1 class="pageTitle">Episodes</h1>
 <ul class="posts noList">
-{% for post in site.posts %}
+{% for post in site.episodes | sort: 'date' %}
 <li>
 <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
 <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 </li>
 {% endfor %}
 </ul>
+</div>
+
+
+<div class="right">
+<h1 class="pageTitle">Articles</h1>
+<ul class="posts noList">
+{% for post in site.articles | sort: 'date' %}
+<li>
+<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+</li>
+{% endfor %}
+</ul>
+</div>
 </div>

@@ -458,7 +458,7 @@ POST LIST STYLING
 ***************/
 
 .posts {
-	li {
+	  li {
 		margin-bottom: 4rem;
 		position: relative;
 
@@ -471,6 +471,11 @@ POST LIST STYLING
 			height: 2px;
 			width: 60px;
 		}
+
+    &:last-child:before {
+        height: 0px;
+        width: 0px;
+    }
 
 		a {
 			text-decoration: none;

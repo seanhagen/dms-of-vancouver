@@ -1,11 +1,21 @@
 title: DMs of Vancouver
-email: info@dmsofvancouver.ca
+email: dmsofvancouver@gmail.com
+
 description: > # this means to ignore newlines until "baseurl:"
   DMs of Vancouver is a podcast for new and vetran DMs. We go over a variety
   of topics, hoping to give advice on what a DM will encounter as they run games
   for their players.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dmsofvancouver.ca"
+
+podcast:
+  subtitle: "The D&D podcast for new & veteran DMs"
+  image: "/podcast-image.png"
+  author:
+    name: DMs of Vancouver (Jessy Boros & Sean Hagen)
+    email: dmsofvancouver@gmail.com
+
 
 highlighter: rouge
 

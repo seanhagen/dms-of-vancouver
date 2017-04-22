@@ -1,9 +1,14 @@
 <div class="footer">
    <div class="container">
       <p class="copy">&copy; {{ site.time | date: '%Y' }} <a
-      href="http://seanhagen.ca">Sean Hagen & DMs of Vancouver</a> Powered by <a href="http://jekyllrb.com">Jekyll</a></p>
+      href="http://seanhagen.ca">Sean Hagen & DMs of Vancouver</a> Powered by <a
+      href="http://jekyllrb.com">Jekyll</a>
 
-      <div class="footer-links">
+<br/><a href="/feed.xml">posts RSS</a>
+<br/><a href="/episodes.xml">episodes RSS</a>
+      </p>
+
+ <div class="footer-links">
          <ul class="noList">
             {% if site.social.facebook %}
             <li><a href="https://www.facebook.com/{{ site.social.facebook }}">
