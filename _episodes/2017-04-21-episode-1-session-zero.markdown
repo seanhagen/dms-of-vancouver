@@ -1,7 +1,8 @@
 ---
 layout: episodes
-title:  "Episode 1: Ray Blackmore & Session Zero"
-date:   2017-04-23 12:30:30 -0700
+title: "Episode 1: Ray Blackmore & Session Zero"
+date: 2017-04-21 12:34:30 -0700
+categories: episodes
 audio_length: 69900183
 audio_type: "audio/mpeg"
 audio_url: "assets/episodes/episode-1-ray-session-zero.mp3"
