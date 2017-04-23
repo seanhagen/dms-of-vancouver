@@ -1,31 +1,26 @@
 ---
 layout: default
 ---
-<!-- Just some nice to have styles for the pager buttons -->
-<style>
-ul.pager { text-align: center; list-style: none; }
-ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
-</style>
 
-<div class="home">
+<div class="home" id="home">
 
-<h1 class="page-heading">AutoPage Collection <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h1>
+{% if page.autopages %}
+<h1 class="pageTitle">Recent {{page.autopages.display_name | capitalize }}</h1>
+{% else %}
+<h1 class="pageTitle">Recent Items</h1>
+{% endif %}
 
-AUTO CREATED FOR ALL COLLECTIONS IN THE SITE
+ {{ content | markdownify }}
 
-{{ content | markdownify }}
-
-<ul class="post-list">
-<!--
-     Here is the main paginator logic called.
-     All calls to site.posts should be replaced by paginator.posts
--->
+<ul class="posts noList">
 {% for post in paginator.posts %}
 <li>
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.book.rank %} | Rank: {{ post.book.rank }}{% endif %}{% if post.collection %} | {{ post.collection }}{% endif %}{% if post.tags %}<br>Tags: {{ post.tags }}{% endif %}</span>
-<h2>
-<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-</h2>
+
+<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a></h3>
+
+<p class="description">{% if post.description %}{{ post.description | strip_html | truncate: 250 }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>
+
 </li>
 {% endfor %}
 </ul>
