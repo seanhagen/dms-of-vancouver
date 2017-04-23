@@ -8,6 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dmsofvancouver.ca"
+highlighter: rouge
+permalink: pretty
 
 podcast:
   subtitle: "The D&D podcast for new & veteran DMs"
@@ -15,11 +17,6 @@ podcast:
   author:
     name: DMs of Vancouver (Jessy Boros & Sean Hagen)
     email: dmsofvancouver@gmail.com
-
-
-highlighter: rouge
-
-permalink: pretty
 
 collections:
   episodes:
@@ -47,7 +44,6 @@ pagination:
   permalink: '/p:num.html'
   sort_field: 'date'
   sort_reverse: true
-
 
 autopages:
   enabled: true
