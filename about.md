@@ -1,24 +1,47 @@
 ---
-layout: default
-title: About Long Haul
+layout: about
+title: About Us
 ---
 
-<div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
-</div>
+We're two guys -- [Jessy Boros](http://twitter.com/JessyTheRed)
+and [Sean Hagen](http://seanhagen.ca) -- who want to become better DMs. We
+figure the best way to do that is to sit down and talk to other DMs and pick
+their brain on a variety of topics. 
+
+Once a month, we'll post an episode about being a DM. We're mostly going to
+cover two types of topics: DM 101, and Advanced DM-ing.
+
+## DM 101
+
+These are the basics. Building encounters, planning a story, running a session
+zero, prepping for a session, stuff like that. These are the kind of things a
+brand-new DM should know about to give themselves a solid footing.
+
+## Advanced DM-ing
+
+Okay, maybe you've been DM-ing for a while, but you've still got
+questions. Maybe you want to dive in deeper to how to build an encounter, or
+maybe you want more detail on worldbuilding. Maybe you've got concerns about how
+the game is running, or how your players are responding. These topics (and many
+more!) are the kind of things we'll be getting into with Advanced DM-ing.
+
+## Questions?
+
+If you've got a question you'd like to ask, you can get in touch in multiple
+ways. [Reach out to us on Twitter at @dmsofvancouver](https://twitter.com/{{site.social.twitter}}),
+or
+[hit us up on our Facebook group](https://www.facebook.com/{{site.social.facebook}}). You
+can even email us at [dmsofvancouver AT gmail DOT com](mailto:{{site.social.email}}).
+
+## More On The Hosts
+
+### Jessy
+
+<!-- jessy bio -->
+
+### Sean
+
+Sean has been a DM for little more than a year now. He's run games in D&D,
+Paranoia, Star Wars: Edge of the Empire, and a few other systems. A big believer
+that the entire job of the DM is to enhance player fun and empower awesome stories.
+
