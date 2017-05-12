@@ -37,7 +37,11 @@ can even email us at [dmsofvancouver AT gmail DOT com](mailto:{{site.social.emai
 
 ### Jessy
 
-<!-- jessy bio -->
+Jessy has been playing D&D and other tabletop games for just over a
+decade. He ran an partially successful campaign for about eight
+months before falling victim to DM fatigue. Now he hopes running this
+podcast will help him to a better job next time he gets behind the
+screen.
 
 ### Sean
 
