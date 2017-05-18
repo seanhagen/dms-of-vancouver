@@ -13,6 +13,8 @@ $( document ).ready(function() {
       return Math.round(parseFloat(value));
     });
 
+  // audiojs.events.ready(function(){
+  //   var as = audiojs.createAll();
+  // });
+
 });
-
-
