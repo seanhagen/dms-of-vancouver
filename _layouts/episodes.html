@@ -12,6 +12,13 @@ layout: default
 
 {{ content }}
 
+{% if page.audio_url %}
+<audio controls preload="auto" src="{{page.audio_url}}">
+<p>Your browser doesn't support the <code>audio</code> tag.</p>
+<p>Listen <a href="{{page.audio_url}}">here</a> instead.</p>
+</audio>
+{% endif %}
+
 <!-- POST NAVIGATION -->
 <div class="postNav clearfix">
 {% if page.previous.url %}
