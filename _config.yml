@@ -11,6 +11,8 @@ url: "http://dmsofvancouver.ca"
 highlighter: rouge
 permalink: pretty
 
+google_analytics: "UA-99453135-1"
+
 podcast:
   subtitle: "The D&D podcast for new & veteran DMs"
   image: "/podcast-image.png"
