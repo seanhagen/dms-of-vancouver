@@ -1,7 +1,7 @@
 ---
 layout: episodes
 title: "Episode 2: Jason Romein & Building Encounters"
-date: 2017-05-18 12:34:30 -0700
+date: 2017-06-15 12:34:30 -0700
 categories: episodes
 audio_url: "https://tracking.feedpress.it/link/17010/6030358/podcast-2-jay-building-encounters.mp3"
 ---

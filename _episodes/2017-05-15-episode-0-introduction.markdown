@@ -1,7 +1,7 @@
 ---
 layout: episodes
 title: "Episode 0: Introduction!"
-date: 2017-05-17 12:34:30 -0700
+date: 2017-05-15 12:34:30 -0700
 categories: episodes
 audio_url: "https://tracking.feedpress.it/link/17010/5855805/podcast-0-introduction.mp3"
 ---
