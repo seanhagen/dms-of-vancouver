@@ -3,7 +3,7 @@ layout: episodes
 title: "Episode 6: Joeseph Stilwell & Historical Inspiration"
 date: 2017-08-21 10:34:30 -0700
 categories: episodes
-audio_url: "https://tracking.feedpress.it/link/17010/6552186/podcast-6-joseph-stilwell-historical-inspiration.mp3"
+audio_url: "https://tracking.feedpress.it/link/17010/6555422/podcast-6-joseph-stilwell-historical-inspiration%20%281%29.mp3"
 ---
 
 This episode we find ourselves talking to Joseph Stilwell about getting inspiration from ancient history, as well as myths and legends. Want advice on how to use historical figures as templates for creating good NPCs? Or maybe you want to adapt a military campaign as the core part of campaign you're putting together. We talk about all that and more!
