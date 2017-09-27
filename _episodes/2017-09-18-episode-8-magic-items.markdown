@@ -1,12 +1,12 @@
 ---
 layout: episodes
-title: "Episode 8: Craig Chapman & Magic Items"
+title: "Episode 8: Craig Charest & Magic Items"
 date: 2017-09-18 12:34:30 -0700
 categories: episodes
 audio_url: "https://tracking.feedpress.it/link/17010/6830942/podcast-8-magic-items-v2.mp3"
 ---
 
-In this episode we talk to Craig Chapman about magic items. We go over some basic tips on when to give them out to your players, and also talk about some of the ins & outs of creating brand new ones for your players.
+In this episode we talk to Craig Charest about magic items. We go over some basic tips on when to give them out to your players, and also talk about some of the ins & outs of creating brand new ones for your players.
 
 If you've got questions you'd like us to dive into, get in touch on [Facebook](https://www.facebook.com/dmsofvancouver) or [Twitter](https://www.twitter.com/dmsofvancouver).
 
