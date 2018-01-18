@@ -30,6 +30,10 @@ jobs:
           name: install dependencies
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
+            sudo apt-get install --yes openjdk-7-jre
+
+      - run:
+          name: install java
 
       - save_cache:
           paths:
