@@ -38,7 +38,7 @@ jobs:
 
       - run:
           name: Remove Vendor Markdown
-          command: find ./vendor -name '*.md' | xargs rm -rf
+          command: find ./vendor -name '*.md*' -or -name '*.markdown*' | xargs rm
 
       - run:
           name: Build
