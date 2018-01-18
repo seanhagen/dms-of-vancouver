@@ -76,7 +76,7 @@ gems:
   # - jekyll-paginate-category
 
 exclude:
-  - vendor
+  - [vendor]
   - s3_website.yml
   - README.md
   - package.json
