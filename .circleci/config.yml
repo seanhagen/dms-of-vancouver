@@ -36,6 +36,9 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
+      - run:
+          name: Remove Vendor Markdown
+          command: find ./vendor -name '*.md' | xargs rm -rf
 
       - run:
           name: Build
