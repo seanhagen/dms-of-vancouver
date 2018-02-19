@@ -1,12 +1,12 @@
 ---
 layout: episodes
-title: "Episode 18: Steve Winn & The D&D Online Community"
+title: "Episode 18: Steve Huynh & The D&D Online Community"
 date: 2018-02-05 12:00:30 -0700
 categories: episodes
 audio_url: "https://tracking.feedpress.it/link/17010/8179457/podcast-18-steve-winn-dnd-community.mp3"
 ---
 
-In this episode we talk to Steve Winn about the D&D online community -- Reddit,
+In this episode we talk to Steve Huynh about the D&D online community -- Reddit,
 various Discords, and other places you can find your D&D peeps online.
 
 Here are the communities we talked about in the episode:
