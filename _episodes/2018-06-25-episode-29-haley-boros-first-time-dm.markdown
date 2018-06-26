@@ -1,6 +1,6 @@
 ---
 layout: episodes
-title: "Episode 29: Haley Boros & Being A First Time DM
+title: "Episode 29: Haley Boros & Being A First Time DM"
 date: 2018-06-25 13:30:01
 categories: episodes
 audio_url: "https://tracking.feedpress.it/link/17010/9559653/podcast-29-haley-boros-first-time-dm.mp3"
