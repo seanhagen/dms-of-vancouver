@@ -8,22 +8,9 @@ and [Sean Hagen](http://seanhagen.ca) -- who want to become better DMs. We
 figure the best way to do that is to sit down and talk to other DMs and pick
 their brain on a variety of topics. 
 
-Once a month, we'll post an episode about being a DM. We're mostly going to
-cover two types of topics: DM 101, and Advanced DM-ing.
-
-## DM 101
-
-These are the basics. Building encounters, planning a story, running a session
-zero, prepping for a session, stuff like that. These are the kind of things a
-brand-new DM should know about to give themselves a solid footing.
-
-## Advanced DM-ing
-
-Okay, maybe you've been DM-ing for a while, but you've still got
-questions. Maybe you want to dive in deeper to how to build an encounter, or
-maybe you want more detail on worldbuilding. Maybe you've got concerns about how
-the game is running, or how your players are responding. These topics (and many
-more!) are the kind of things we'll be getting into with Advanced DM-ing.
+We cover all kinds of topcs, from the basics like building encounters & running
+a session zero -- all the way up to more advanced stuff like diving into
+worldbuilding & improv DM-ing.
 
 ## Questions?
 
