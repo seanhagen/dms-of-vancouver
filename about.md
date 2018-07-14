@@ -49,3 +49,12 @@ Sean has been a DM for little more than a year now. He's run games in D&D,
 Paranoia, Star Wars: Edge of the Empire, and a few other systems. A big believer
 that the entire job of the DM is to enhance player fun and empower awesome stories.
 
+# Thanks!
+
+We've got some awesome patrons who have donated to us via
+[Patreon](https://patreon.com/dmsofvancouver):
+
+* Haley Boros ( who also did the artwork we use for the show! )
+* Craig Chapman
+
+<a href="https://www.patreon.com/bePatron?u=5814027" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
