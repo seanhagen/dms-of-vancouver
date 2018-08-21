@@ -1,3 +1,11 @@
+---
+layout: episodes
+title: "Episode 33 - Cohost Chat"
+date: 2018-08-20 13:30:01
+categories: episodes
+audio_url: "https://tracking.feedpress.it/link/17010/10083989/podcast-33-cohost-chat.mp3"
+---
+
 No guest this week, just Jessy & Sean chatting about what's been happening in the world of D&D lately.
 
 If you've got questions you'd like us to dive into, get in touch on [Facebook](https://www.facebook.com/dmsofvancouver) or [Twitter](https://www.twitter.com/dmsofvancouver).
