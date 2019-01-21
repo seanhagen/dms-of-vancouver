@@ -1,0 +1,8 @@
+---
+layout: articles
+title:  "We've Moved!"
+date:   2019-01-21 10:11:30 -0700
+categories: posts
+---
+
+We're now hosted [over here](https://shows.pippa.io/dmv/). We're going to try and get this domain name pointed at that new host soon, but for now update your bookmarks with the new URL!
